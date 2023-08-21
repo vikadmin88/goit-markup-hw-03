@@ -1,0 +1,179 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  color: #434455;
+  background-color: #FFF;
+}
+
+ul,
+ol {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+address {
+    font-style: normal;
+}
+
+.wrapper {
+}
+
+
+/* Header container */
+/* .header-container {}
+.navbar {} */
+
+/* Logo */
+.logo {
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: 0.54px;
+    text-transform: uppercase;
+    color: #4d5ae5;
+    
+}
+
+.logo-right-top {
+    color: #2e2f42;
+}
+.logo-right-bottom {
+    color: #f4f4fd;
+}
+/*  Navbar menu */
+/* .navbar-menu-list {}
+.navbar-menu-list-item {} */
+
+
+.navbar-menu-list-item-link {
+    color: #2E2F42;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.32px;
+}
+
+.navbar-menu-list-item-link:hover,
+.navbar-menu-list-item-link:focus {
+    color: #404BBF;
+}
+
+/*  Address container */
+/* .header-address {}
+.address-list {}
+.address-list-item {} */
+
+.address-list-item-link {
+    color: #434455;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.32px;
+}
+
+.address-list-item-link:hover, 
+.address-list-item-link:focus {
+    color: #404BBF;
+}
+
+/* Main */
+/* .main-container {} */
+.slogan {
+    background-color: #2E2F42;
+}
+
+.slogan-title {
+    color: #FFF;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.07;
+    letter-spacing: 1.12px;
+    text-align: center;
+}
+
+.slogan-button {
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    background-color: #4D5AE5;
+    cursor: pointer;
+}
+.slogan-button:hover,
+.slogan-button:focus {
+    background-color: #404BBF;
+}
+
+
+/* Sections title style */
+/* h2 */
+.section-title {
+    color: #2E2F42;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.11;
+    letter-spacing: 0.72px;
+    text-transform: capitalize;    
+    text-align: center;
+}
+
+/* h3 */
+.list-item-title {
+    color: #2E2F42;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.4px;
+}
+
+/* paragraph */
+.list-item-descr {
+    color: #434455;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.32px;
+}
+
+
+/* Our Qualities */
+.qualities {
+    background-color: #FFF; 
+}
+
+
+/*  Our Team */
+.team {
+    background-color: #F4F4FD;
+}
+
+/* .team-list {} */
+.team-list-item {
+    background-color: #FFF;
+}
+/*.team-list-item-image {} */
+
+
+/* Our Portfolio */
+.portfolio {
+    background-color: #FFF;
+}
+
+/* .section-portfolio-list {}
+.section-portfolio-list-item {}
+.section-portfolio-list-item-image {} */
+
+
+/* Footer */
+.footer-container {
+    background: #2E2F42;
+}
+
+.footer-text {
+    color: #F4F4FD;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.32px;
+}
