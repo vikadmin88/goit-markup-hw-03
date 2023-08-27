@@ -1,31 +1,79 @@
 body {
-  font-family: 'Roboto', sans-serif;
-  color: #434455;
-  background-color: #FFF;
+    font-family: 'Roboto', sans-serif;
+    color: #434455;
+    background-color: #FFF;
 }
 
 ul,
 ol {
     list-style-type: none;
+    margin: 0;
+    padding-left: 0;
 }
 
 a {
     text-decoration: none;
 }
 
+img {
+    display: block;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
+
+p {
+    margin: 0;
+}
+
 address {
     font-style: normal;
 }
-
-.wrapper {
+.wrapper {    
+    /* max-width: 1240px;
+    padding: 0 auto;
+    margin: 0 auto; */
+    /* max-width: 
+    padding-left:  
+    padding-right:  
+    margin-left:  
+    margin-right: */
 }
 
+.container {
+    /* ? */
+    /* max-width: 1240px; */
+    max-width: 1440px;
+    /* max-width: 1158px; */
+    padding-left: 0;
+    padding-right: 0; 
+    margin-left: auto; 
+    margin-right: auto;
+}
 
 /* Header container */
-/* .header-container {}
-.navbar {} */
+.header .container {
+    display: flex;
+    justify-content: space-between;
+    /* width: 100%; */
+    padding: 0 156px;
+    border-bottom: 1px solid #E7E9FC;
+}
+.navbar {
+  display: flex;  
+} 
 
 /* Logo */
+.navbar-logo {
+    padding-top: 25.5px;
+    padding-bottom: 25.5px;
+}
+
 .logo {
     font-family: 'Raleway', sans-serif;
     font-size: 18px;
@@ -34,21 +82,33 @@ address {
     letter-spacing: 0.54px;
     text-transform: uppercase;
     color: #4d5ae5;
-    
 }
 
-.logo-right-top {
+.logo .navbar-logo-right {
     color: #2e2f42;
 }
-.logo-right-bottom {
+
+.logo .footer-logo-right {
     color: #f4f4fd;
 }
+
 /*  Navbar menu */
-/* .navbar-menu-list {}
-.navbar-menu-list-item {} */
-
-
-.navbar-menu-list-item-link {
+.navbar-items {
+    display: flex;
+    gap: 40px;
+    padding-left: 76px;
+}
+.navbar-item {
+    display: flex;
+}
+.navbar-item-link {
+    padding-top: 24px;
+    padding-bottom: 24px;
+    /* display: flex; */
+    /* flex-direction: column;
+    align-items: flex-start;
+    flex-shrink: 0;
+    gap: 20px; */
     color: #2E2F42;
     font-size: 16px;
     font-weight: 500;
@@ -56,54 +116,86 @@ address {
     letter-spacing: 0.32px;
 }
 
-.navbar-menu-list-item-link:hover,
-.navbar-menu-list-item-link:focus {
+.navbar-item-link:hover,
+.navbar-item-link:focus {
+    /* display: flex; */
+    padding-bottom: 0;
+    border-radius: 2px;
+    border-bottom: 4px solid #404BBF;
     color: #404BBF;
 }
 
-/*  Address container */
-/* .header-address {}
-.address-list {}
-.address-list-item {} */
+/*  Address  */
+.addrbar {
+    display: flex;
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+.addr-items {
+    display: flex;
+    gap: 40px;
+}
+.addr-item {}
 
-.address-list-item-link {
+.addr-item-link {
     color: #434455;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.32px;
 }
 
-.address-list-item-link:hover, 
-.address-list-item-link:focus {
+.addr-item-link:hover,
+.addr-item-link:focus {
     color: #404BBF;
 }
 
 /* Main */
 /* .main-container {} */
-.slogan {
+.hero .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     background-color: #2E2F42;
+    /* width: 100%; */
+    padding: 188px 0;
 }
 
-.slogan-title {
+.hero-title {
+    display: flex;
+    /* align-content: center; */
     color: #FFF;
     font-size: 56px;
     font-weight: 700;
     line-height: 1.07;
     letter-spacing: 1.12px;
+    /* text-align: center; */
+}
+.hero-title span {
+    width: 496px;
     text-align: center;
 }
 
-.slogan-button {
+.hero-button {
+    display: inline-flex;
+    padding: 16px 32px;
+    align-items: flex-start;
+    gap: 10px;
+    background-color: #4D5AE5;
+    border-radius: 4px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    display: block;
     color: #FFF;
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
-    letter-spacing: 0.04em;
-    background-color: #4D5AE5;
+    letter-spacing: 0.64px;
     cursor: pointer;
+    margin-top: 48px;
 }
-.slogan-button:hover,
-.slogan-button:focus {
+
+.hero-button:hover,
+.hero-button:focus {
     background-color: #404BBF;
 }
 
@@ -116,7 +208,7 @@ address {
     font-weight: 700;
     line-height: 1.11;
     letter-spacing: 0.72px;
-    text-transform: capitalize;    
+    text-transform: capitalize;
     text-align: center;
 }
 
@@ -140,7 +232,7 @@ address {
 
 /* Our Qualities */
 .qualities {
-    background-color: #FFF; 
+    background-color: #FFF;
 }
 
 
@@ -153,6 +245,7 @@ address {
 .team-list-item {
     background-color: #FFF;
 }
+
 /*.team-list-item-image {} */
 
 

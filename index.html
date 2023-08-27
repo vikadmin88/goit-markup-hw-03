@@ -14,44 +14,55 @@
 
 <body>
 
-  <!-- Wrapper -->
+  <!-- Container -->
   <div class="wrapper">
 
-  <!-- Header container -->
-  <header class="header-container">
-
-    <!-- Navbar -->
-    <nav class="navbar">
-      <a  class="logo" href="./index.html">Web<span class="logo-right-top">Studio</span></a>
-      <ul class="navbar-menu-list">
-        <li class="navbar-menu-list-item"><a href="./index.html" class="navbar-menu-list-item-link">Studio</a></li>
-        <li class="navbar-menu-list-item"><a href="" class="navbar-menu-list-item-link">Portfolio</a></li>
-        <li class="navbar-menu-list-item"><a href="" class="navbar-menu-list-item-link">Contacts</a></li>
-      </ul>
-    </nav>
-
-    <!-- Address -->
-    <address class="address-container">
-      <ul class="address-list">
-        <li class="address-list-item">
-          <a href="mailto:info@devstudio.com" class="address-list-item-link">info@devstudio.com</a>
-        </li>
-        <li class="address-list-item">
-          <a href="tel:+110001111111" class="address-list-item-link">+11 (000) 111-11-11</a>
-        </li>
-      </ul>
-    </address>
-  </header>
+    <!-- Header container -->
+    <header class="header">
+      <div class="container">
+        <!-- Navbar -->
+        <nav class="navbar">
+          <div class="navbar-logo">
+            <a class="logo" href="./index.html">Web<span class="navbar-logo-right">Studio</span></a>
+          </div>
+          <ul class="navbar-items">
+            <li class="navbar-item">
+              <a href="./index.html" class="navbar-item-link">Studio</a>
+            </li>
+            <li class="navbar-item">
+              <a href="" class="navbar-item-link">Portfolio</a>
+            </li>
+            <li class="navbar-item">
+              <a href="" class="navbar-item-link">Contacts</a>
+            </li>
+          </ul>
+        </nav>
+        
+        <!-- Address -->
+        <address class="addrbar">
+          <ul class="addr-items">
+            <li class="addr-item">
+              <a href="mailto:info@devstudio.com" class="addr-item-link">info@devstudio.com</a>
+            </li>
+            <li class="addr-item">
+              <a href="tel:+110001111111" class="addr-item-link">+11 (000) 111-11-11</a>
+            </li>
+          </ul>
+        </address>
+    </div>
+    </header>
 
   <!-- Main container -->
   <main class="main-container">
 
     <!-- Main section -->
-    <section class="slogan">
-      <h1 class="slogan-title">Effective Solutions for Your Business</h1>
-      <button type="button" class="slogan-button">Order Service</button>
-    </section>
-
+    <section class="hero">
+        <div class="container">
+          <h1 class="hero-title"><span>Effective Solutions for Your Business</span></h1>
+            <a class="hero-button" href="#">Order Service</a>
+          <!-- <button type="button" class="hero-button">Order Service</button> -->
+      </div>
+      </section>
     <!-- Our qualities -->
     <section class="qualities">
       <h2 class="section-title">Our qualities</h2>
@@ -154,7 +165,7 @@
 
   <!-- Footer container -->
   <footer class="footer-container">
-    <a class="logo" href="./index.html">Web<span class="logo-right-bottom">Studio</span></a>
+    <a class="logo" href="./index.html">Web<span class="footer-logo-right">Studio</span></a>
     <p class="footer-text">
       Increase the flow of customers and sales for your business with digital
       marketing & growth solutions.
