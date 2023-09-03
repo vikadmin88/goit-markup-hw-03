@@ -366,10 +366,12 @@ address {
     background: var(--c-main);
 }
 
-.footer .logo-right {
-    color: var(--c-footer-logo);
+.footer .logo {
     display: inline-block;
     margin-bottom: 16px;
+}
+.footer .logo-right {
+    color: var(--c-footer-logo);
 }
 
 .footer-descr {
